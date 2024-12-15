@@ -1,0 +1,34 @@
+project:
+  author: Chris Kourkoulakos
+  institute: Brown University DATA 1030 - Hands-On Data Science
+  name: Predicting Draft Round for College Football Players
+  description: Predicts which NFL draft round/undrafted college football players will be selected in based on college statistics
+  contact: chris_kourkoulakos@brown.edu
+
+dependencies:
+- python=3.12.5
+- matplotlib=3.9.2
+- plotly=5.23.0
+- pandas=2.2.2
+- scikit-learn=1.5.1
+- numpy=1.26.4
+- py-xgboost=2.1.1
+- shap=0.45.1
+- jupyter
+
+prefix: /opt/conda
+name: data1030
+channels:
+- conda-forge
+dependencies:
+- python=3.12.5
+- matplotlib=3.9.2
+- plotly=5.23.0
+- pandas=2.2.2
+- scikit-learn=1.5.1
+- numpy=1.26.4
+- py-xgboost=2.1.1
+- shap=0.45.1
+- jupyter
+
+prefix: /opt/conda
