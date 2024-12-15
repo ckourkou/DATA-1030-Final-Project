@@ -3,6 +3,14 @@ This project uses data from Stathead to predict which round in the NFL draft col
 The data contains key metrics for passing, rushing, and receiving, as well as games played, years played, and team.
 Four ML classification models (XGBoost, Random Forest, Support Vector Classifier, KNN Classifier) are fit and evaluated by accuracy.
 
+# Repo Structure
+- **data/**: contains original datasets as well as raw/preprocessed training/testing data for three random states
+- **figures/**: contains charts/graphs of EDA, results, interpretability
+- **results/**: contains saved models and predictions for each model in each random state
+- **report/**: contains PDF report write-up of project
+- **src/**: contains source code of python file
+
+
 # Packages
 The following packages and versions are used for this project
 - python=3.12.5
